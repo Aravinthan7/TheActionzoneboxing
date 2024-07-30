@@ -2932,6 +2932,10 @@ Toast message section
 	.top-social a {
 		margin-left: 15px;
 	}
+	.side-menu{
+		display: block;
+	}
+	
 }
 .menu-btn {
 	font-size: 30px;
@@ -2990,6 +2994,11 @@ Toast message section
 	.recent-item {
 		margin-bottom: 30px;
 	}
+	.side-menu{
+		display: none;
+	}
+	
+	
 }
 
 /* Large Mobile : 480px */
@@ -3084,6 +3093,65 @@ Toast message section
 	}
 	.map-contact-detalis {
 		right: 30px;
+	}
+	.side-menu {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .side-menu a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #dfbf0e;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .side-menu a:hover {
+        color: #f1f1f1;
+    }
+
+    .side-menu .close-btn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .menu-btn {
+        font-size: 30px;
+        cursor: pointer;
+        color: #fff;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+	.menu-btn {
+		display: block; /* Display on mobile screens */
+		background: transparent;
+    	border: none;
+		position: absolute;
+	}
+
+	.side-menu {
+		padding-top: 20px; /* Adjust padding for smaller screens */
+	}
+	.side-menu{
+		display: block;
 	}
 }
 
