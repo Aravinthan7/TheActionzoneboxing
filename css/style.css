@@ -2934,7 +2934,12 @@ Toast message section
 	border: 1px solid #000000;
 	border-radius: 2px;
 }
-
+#footer-contact-1{
+	display: inline-flex;
+}
+#footer-contact-2{
+	display: none;
+}
 /*---------------------------- Other Pages Styles ------------------------------*/
 
 @media only screen and (min-width: 1200px) {
@@ -2968,6 +2973,12 @@ Toast message section
 	display: none; /* Initially hidden */
 }
 .side-menu{
+	display: none;
+}
+#footer-contact-1{
+	display: inline-flex;
+}
+#footer-contact-2{
 	display: none;
 }
 
@@ -3174,6 +3185,12 @@ Toast message section
 	.side-menu{
 		display: block;
 	}
+	#footer-contact-1{
+		display: none;
+	}
+	#footer-contact-2{
+		display: block;
+	}
 }
 
 /* Small Mobile : 320px */
@@ -3306,5 +3323,10 @@ Toast message section
 	.side-menu{
 		display: block;
 	}
-	
+	#footer-contact-1{
+		display: none;
+	}
+	#footer-contact-2{
+		display: block;
+	}
 }
