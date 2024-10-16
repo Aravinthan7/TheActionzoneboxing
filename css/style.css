@@ -2935,7 +2935,7 @@ Toast message section
 	border-radius: 2px;
 }
 #footer-contact-1{
-	display: inline-flex;
+	display: block;
 }
 #footer-contact-2{
 	display: none;
@@ -2976,7 +2976,7 @@ Toast message section
 	display: none;
 }
 #footer-contact-1{
-	display: inline-flex;
+	display: block;
 }
 #footer-contact-2{
 	display: none;
