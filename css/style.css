@@ -3044,7 +3044,7 @@ Toast message section
 		display: none;
 	}
 	.top-social {
-		
+		display: none;
 	}
 	.slicknav_menu {
 		display: block;
@@ -3125,6 +3125,11 @@ Toast message section
 	}
 	.map-contact-detalis {
 		right: 30px;
+	}
+	.logo {
+		float: none;
+		text-align: center;
+		margin-bottom: 10px;
 	}
 	.side-menu {
         height: 100%;
