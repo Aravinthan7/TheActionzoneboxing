@@ -3036,6 +3036,11 @@ Toast message section
 /* Large Mobile : 480px */
 
 @media only screen and (max-width: 767px) {
+	.logo {
+		float: none;
+		text-align: center;
+		margin-bottom: 10px;
+	}
 	.header-section {
 		padding-left: 0;
 		padding-right: 0;
@@ -3125,11 +3130,6 @@ Toast message section
 	}
 	.map-contact-detalis {
 		right: 30px;
-	}
-	.logo {
-		float: none;
-		text-align: center;
-		margin-bottom: 10px;
 	}
 	.side-menu {
         height: 100%;
