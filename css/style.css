@@ -1096,6 +1096,12 @@ Toast message section
 	text-transform: uppercase;
 	margin-bottom: 34px;
 }
+.single-price-plan h5 {
+	color: #272727;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-bottom: 34px;
+}
 
 .single-price-plan .price-plan {
 	margin-bottom: 35px;
@@ -1111,6 +1117,16 @@ Toast message section
 	display: inline-block;
 }
 
+.single-price-plan .price-plan h3 {
+	color: #272727;
+	font-size: 20px;
+	font-weight: 700;
+	position: relative;
+	padding-left: 18px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
 .single-price-plan .price-plan h2 span {
 	color: #272727;
 	font-size: 14px;
@@ -1119,6 +1135,7 @@ Toast message section
 	left: 0;
 	top: 9px;
 }
+
 
 .single-price-plan .price-plan p {
 	font-size: 16px;
