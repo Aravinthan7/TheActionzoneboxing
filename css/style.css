@@ -1021,6 +1021,7 @@ Toast message section
 	text-transform: uppercase;
 	font-family: "Oswald", sans-serif;
 	padding: 25px 5px;
+	
 }
 
 .classtime-table table tbody {
@@ -1036,6 +1037,7 @@ Toast message section
 	position: relative;
 	z-index: 1;
 	color:  #171717;
+	font-weight: 500;
 }
 
 .classtime-table table tbody tr td:after {
@@ -1075,6 +1077,7 @@ Toast message section
 	color:  #171717;
 	display: block;
 	margin-bottom: 7px;
+	font-weight: 800;
 }
 
 .classtime-table table tbody tr td h6 {
