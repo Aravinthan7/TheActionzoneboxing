@@ -705,6 +705,7 @@ ol {
 	position: relative;
 }
 
+
 .feature-item:hover:before {
 	opacity: 1;
 }
@@ -744,6 +745,59 @@ ol {
 .feature-item .primary-btn.f-btn:hover:after {
 	opacity: 1;
 }
+
+
+
+.feature-item_1{
+	text-align: center;
+	height: 256px;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 100px 15px 15px;
+	position: relative;
+}
+
+.feature-item_1:hover:before {
+	opacity: 1;
+}
+
+.feature-item_1:before {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 5px;
+	background: #ffffff;
+	content: "";
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.feature-item_1 h3 {
+	color:yellow;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 14px;
+}
+
+.feature-item_1 h5 {
+	color:yellow;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 14px;
+}
+.feature-item_1 p {
+	color: yellow;
+	margin-bottom: 22px;
+}
+
+.feature-item_1 .primary-btn.f-btn:hover:after {
+	opacity: 1;
+}
+
+
 
 /*---------------------
   Home About
