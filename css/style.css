@@ -534,6 +534,7 @@ ol {
 }
 .cls-item {
 	position: relative;
+	padding: 10px;
 	
 }
 .cls-item .cls-pic .cls-text {
